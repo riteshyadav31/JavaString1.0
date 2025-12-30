@@ -45,5 +45,13 @@ System.out.println(b3);
         }
         System.out.println(password); // char array is cleared
    
+String s5 = "rahul";
+char[] ch = s5.toCharArray(); // converts String to char array
+System.out.println(ch[1]); // prints 'a'
+
+
+
+
+
     }
 }

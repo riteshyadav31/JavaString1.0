@@ -29,5 +29,7 @@ System.out.println("str2 compareToIgnoreCase str1: " + str2.compareToIgnoreCase(
 System.out.println("hello".compareToIgnoreCase("Hello")); // positive value, 'h' (104) is greater than 'H' (72) in ASCII
 
 
+System.out.println("Hello".compareToIgnoreCase("")); // positive value, non-empty string is greater than empty string this can be used for length calculation
+
     }
 }

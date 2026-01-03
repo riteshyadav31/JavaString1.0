@@ -31,7 +31,7 @@ System.out.println("String s8: " + s8);
 System.out.println("String s8 after trim: " + s8.trim());
 String s9="   hello    world   ";
 System.out.println("String s9: " + s9);
-System.out.println("String s9 after trim: " + s9.trim());
+System.out.println("String s9 after trim: " + s9.trim()); // removes leading and trailing whitespace
 
     }
 }

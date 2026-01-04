@@ -7,4 +7,17 @@ public class day8 {
         System.out.println(s1.contains("World"));
         System.out.println(s1.startsWith("  He"));
         System.out.println(s1.endsWith("  "));
+
+        // type conversion methods 
+
+        int a=65;
+        System.out.println(s1.toUpperCase());
+        System.out.println(s1.toLowerCase());
+        System.out.println(String.valueOf(a)); // converts int to string
+        System.err.println(s1.toCharArray()); // converts string to char array
+
+
+
+
+
     }}

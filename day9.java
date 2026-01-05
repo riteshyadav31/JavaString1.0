@@ -22,6 +22,11 @@ public class day9 {
        int num = Integer.parseInt(str); // Converts string to int
        System.out.println("Converted integer: " + num);
 
+       // back to string
+       String str2 = Integer.toString(num); // Converts int back to string
+         System.out.println("Converted back to string: " + str2);
+
        // the significance difference between String, StringBuffer, and String in Java is that String is immutable, meaning once created, its value cannot be changed. StringBuffer is mutable, allowing modifications
+   
     }
 }
